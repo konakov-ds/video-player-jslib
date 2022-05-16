@@ -128,5 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea
-./where_to_go/media
-./where_to_go/media
+static/font-awesome-4.7.0
