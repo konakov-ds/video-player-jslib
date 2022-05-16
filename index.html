@@ -4,17 +4,18 @@
   <title>Пример подключения плеера us</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
+  <div id="player", class="player">
+    <div class="js-video-container video-container"></div>
     <!-- Here can be placed player controls: play and volume buttons -->
-    <div style="background: black">
-        <button class="js-play-button" style="border-style: none; background-color: transparent; cursor: pointer">
-          <i class="fa fa-play" aria-hidden="true" style="color: white" ></i>
+    <div class="buttons-container" >
+        <button class="js-play-button styled-button" >
+          <i class="fa fa-play" aria-hidden="true" ></i>
         </button>
-        <button class="js-pause-button" style="border-style: none; background-color: transparent; cursor: pointer">
-          <i class="fa fa-pause" aria-hidden="true" style="color: white"></i>
+        <button class="js-pause-button styled-button">
+          <i class="fa fa-pause" aria-hidden="true"></i>
         </button>
     </div>
   </div>
