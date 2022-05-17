@@ -1,12 +1,13 @@
 .player {
   width: 800px;
   height: 600px;
-  box-shadow: 5px 5px 50px goldenrod;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px goldenrod;
 }
 
 .video-container {
-  width: 100%;
-  height: 100%;
+flex-grow: 1;
 }
 
 .buttons-container {
