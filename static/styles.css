@@ -7,17 +7,17 @@
 }
 
 .video-container {
-flex-grow: 1;
+  flex-grow: 1;
 }
 
 .buttons-container {
- background: black;
+  background: black;
 }
 
 .styled-button{
   border-style: none;
   background-color: transparent;
-  cursor: pointer
+  cursor: pointer;
 }
 
 i {
