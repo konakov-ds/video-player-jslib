@@ -12,6 +12,7 @@
 
 .buttons-container {
   background: black;
+  position: relative;
 }
 
 .styled-button{
@@ -21,9 +22,13 @@
   cursor: pointer;
   width: 10px;
   height: 10px;
-  margin: 7px;
+  margin-right: 10px;
 }
 
 i {
   color: white;
+}
+.align-right {
+  position: absolute;
+  right: 10px
 }
