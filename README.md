@@ -10,7 +10,7 @@
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
 ## Примеры
-
+- Демо [плеера](https://konakov-ds.github.io/video-player-jslib/)
 - Страница с минимальными настройками — [index.html](./index.html)
 
 
